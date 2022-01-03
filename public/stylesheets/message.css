@@ -1,0 +1,68 @@
+/*User-created */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap');
+
+
+/*basic css structure*/
+body{
+    background-color: #ecf0f3;
+}
+
+h1 {
+    color: #042F4B;
+    margin: 50px auto 0 auto;
+    font-size: 5.625rem;
+    font-family: 'Sacramento', cursive;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: #042F4B;
+    margin: 10px 20px;
+}
+
+/*img*/
+.book-class{
+    width: unset;
+    height:30px;
+    position: 0, 0;
+    background-repeat: no-repeat;
+    padding-top: 5%;
+    position: relative
+    
+}
+
+.new-mail{
+    width: 20%;
+    height:15%;
+    padding-top:30px;
+    padding-bottom: 30px;
+}
+
+.mail-created-container{
+    margin: auto;
+    text-align: center;
+    width: 50%;
+    padding: 10px;
+}
+
+.mail-btn-container{
+    padding:30px;
+    text-align: center;
+}
+.mail-created-btn {
+    background-color: #042F4B;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    margin:auto;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+

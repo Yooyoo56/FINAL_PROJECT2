@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap");
+body {
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  color: #042F4B;
+  margin: 0; }
+
+a {
+  color: white; }
+
+a:link {
+  text-decoration: none; }
+
+/*NAV BAR*/
+header > div {
+  background-color: #042F4B;
+  padding: 0 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  flex-wrap: nowrap;
+  flex-direction: row; }
+
+span {
+  display: inline-block;
+  font-size: 20px;
+  color: white; }
+
+nav {
+  width: 600px; }
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+nav a {
+  text-decoration: none;
+  color: white; }
+
+.logo {
+  padding: 20px;
+  width: 30px; }
+
+#logout-btn {
+  background-color: #042F4B;
+  border: none;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  padding-top: 18px; }
+
+/*POPUP for the cookie consent*/
+#cookiePopup {
+  text-align: center;
+  font-size: 20px;
+  background: white;
+  width: 25%;
+  position: fixed;
+  left: 10px;
+  bottom: 20px;
+  box-shadow: 0px 0px 15px #cccccc;
+  padding: 10px 10px; }
+
+#cookiePopup p {
+  text-align: left;
+  font-size: 15px;
+  color: #4e4e4e;
+  padding: 10px 30px; }
+
+#cookiePopup button {
+  width: 100%;
+  border: navajowhite;
+  background: #042F4B;
+  padding: 10px 20px;
+  margin: 20px 0px;
+  border-radius: 10px;
+  color: white; }
+
+/*# sourceMappingURL=style.css.map */

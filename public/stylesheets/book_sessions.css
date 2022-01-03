@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap');
+
+/*NAV BAR*/
+header > div {
+  background-color:#042F4B;
+    padding: 0 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    border-bottom: 1px solid lightgray;
+  }
+  
+  span{
+    display: inline-block;
+    font-size:20px;
+    color: white;
+  }
+
+  nav {
+    width: 600px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color:white;
+  }
+  
+  .logo {
+    padding:20px;
+    width: 30px;
+
+  }
+
+/*BODY */
+body{
+    background-color: #ecf0f3;
+    font-family: 'Montserrat', sans-serif;
+    color: #042F4B;
+}
+
+.top-letter {
+    position: absolute;
+    color: white;
+    font-size: 6.625rem;
+    text-align:center;
+    padding:200px;
+    display: inline-block;
+    font-family: 'Sacramento', cursive;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: #042F4B;
+}
+
+.labels{
+    font-size:20px;
+    font-family: 'Montserrat', sans-serif;
+    color: #042F4B;
+    padding-bottom:10px;
+}
+
+/*top container (photo) */
+.book-container{
+background-position: 0 0;
+background-repeat: no-repeat;
+background-size: cover;
+height: 500px;
+position:relative;
+}
+
+.book-class{
+    min-width: 1024px;
+    position: absolute;
+    /* Set up proportionate scaling */
+    width: 100%;
+    height:100%;
+}
+
+.book-btn {
+    background-color: #ecf0f3;
+    border-radius: 12px;
+    border:none;
+    margin:auto;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.book-btn:hover {
+  box-shadow:20px;
+  border-style:0.5px;
+  color:#042F4B;
+  box-shadow: 4px 4px 2px #cbced1;
+  }
+
+
+a{
+    color: #042F4B;
+}
+
+a:link {
+    text-decoration: none; 
+}
+
+/*form - css*/
+
+.all{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.body-container{
+    align-content:center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    padding:50px;
+    justify-content: center;
+}
+
+/*Select -form*/
+
+.search-container{
+    align-content:center;
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+    justify-content: center;
+
+}
+
+select {
+    /* Reset Select */
+    appearance: none;
+    outline: 0;
+    border: 0;
+    align-items:center;
+    box-shadow: none;
+    /* Personalize */
+    flex: 1;
+    padding: 0 1em;
+    color: #fff;
+    background-color: #183344;
+    background-image: none;
+    cursor: pointer;
+    }
+  /* Remove IE arrow */
+select::-ms-expand {
+    display: none;
+}
+  /* Custom Select wrapper */
+    .select {
+    position: relative;
+    display: flex;
+    width: 20em;
+    height: 3em;
+    border-radius: 12px;
+    overflow: hidden;
+}
+  /* Arrow */
+.select::after {
+    content: '\25BC';
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 1em;
+    background-color: #042F4B;
+    transition: .25s all ease;
+    pointer-events: none;
+}
+  /* Transition */
+.select:hover::after {
+    color: #ecf0f3;
+    }
+
+
+/*Search btn effects*/
+.search-div{
+    padding-top:15px;
+}
+
+.search-btn{
+    border-radius: 12px;
+    background-color: #042F4B;
+    border: solid;
+    color: white;
+    margin:auto;
+    padding: 15px 32px;   
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.5s;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.search-btn:hover {
+  font-weight: bold;
+    background-color: #ecf0f3;
+    border-style:0.5px;
+    color:#042F4B;
+    border-color:#042F4B;
+  }
+
+/*form for the courses*/
+
+#structure > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 75px 0;
+}
+
+.service-box {
+    font-size: 1.7em;
+    text-align: center;
+    border: 2px solid #EEE;
+    border-radius: 20px;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 10px 0 #EEE;
+    margin-top: 50px;
+    background-color:#042F4B;
+    color:white;
+    padding: 10px;
+    width: 40%;
+}
+
+.bookeda{
+    font-size:20px;
+    font-weight: bold;
+}
+
+.nocourse{
+  font-size: 25px;
+  padding:10px;
+  font-weight: bold;
+}

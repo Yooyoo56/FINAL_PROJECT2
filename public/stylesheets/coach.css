@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+/*****Section 1******/
+
+.first-section {
+    height:500px;
+    font-family: 'Poppins';
+    font-size:20px;
+    background-color:#ecf0f3;
+}
+.container {
+    display:flex; 
+    flex-direction: column;
+    padding-top:30px; 
+    }
+    .build {
+      font-family: 'Sacramento', cursive;
+    font-size: 130px;
+    font-weight: bold;
+    line-height: 1.25;
+    margin: 80px 0px;
+    text-align: center;
+  }
+  
+  .first-article {
+    text-align: center;
+    padding: 0 50px; 
+  }
+  
+  .second-button {
+      color: black;
+      border: none;
+      padding-top: 40px;
+      text-align: center;
+      border: none;
+      outline:rgba(0, 0, 0, 0.05);
+    }
+  
+  .second-button a {
+    margin: 15px; 
+  }
+  .booksessions {
+    padding: 20px 60px;
+    background-color:#042F4B;
+    box-shadow:8px 8px 0 #dde1e4;
+    border-radius: 0;
+    text-align: center;
+    font-weight: bold;
+    color:white;
+    text-decoration: none;
+}
+
+  /**********section 5**********/
+
+  .fifth-section{
+    height:600px;
+  }
+
+  .fifth-container {
+    padding:100px;
+    display:flex;
+    flex-basis: 0;
+    flex: 1 1 0px;
+    align-content:space-around;
+    justify-content:space-evenly;
+    flex-wrap:nowrap;
+    flex-direction:row;
+  }
+  
+  .fifth-container img {
+    width: 850px;
+    height: 500px;
+  }
+
+  .fifth-container h3 {
+    text-align:left ;
+    color:#042F4B ;
+  }
+  
+  .fifth-container p {
+    font-size: 20px;
+    text-align:left;
+    line-height: 1.5;
+  }
+  
+  /******* 4 div elements*******/
+  
+  .last-button {
+    padding-bottom: 100px; 
+    padding-top:30px;
+    margin-right: auto;  
+    margin-left:auto; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .last-button a {
+    background-color:#042F4B;
+    box-shadow:8px 8px 0 #dde1e4;
+    font-weight: bold;
+    color: white;
+    Padding:10px 100px; 
+    text-decoration: none;  
+  }
+
+.fifth-first-div{
+  margin:30px;
+  padding:100px;
+  }
+.underline {
+  border-bottom: solid 3px #042F4B;
+  width: 50px;
+}
+
+
+
+/*//////////////coach button/////////*/
+
+.coach-button {
+    color: black;
+    border: none;
+    padding-right:220px;
+    padding-top: 40px;
+    text-align: center;
+    border: none;
+    outline:rgba(0, 0, 0, 0.05);
+}
+
+.meet-coach {
+    padding: 20px 60px;
+    background-color:#042F4B;
+    box-shadow:8px 8px 0 #dde1e4;
+    border-radius: 0;
+    text-align: center;
+    font-weight: bold;
+    color:white;
+    text-decoration: none;
+}

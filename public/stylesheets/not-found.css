@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap');
+
+
+/*Body*/
+
+body{
+    margin: 0;
+  width: 100vw;
+  height: 100vh;
+  background: #ecf0f3;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  place-items: center;
+  overflow: hidden;
+  font-family: 'Montserrat', sans-serif;
+  color: #042F4B;
+}
+
+h2{
+    font-size: 50px;
+    text-align:center;
+    display: inline-block;
+    font-family: 'Sacramento', cursive;
+}
+
+
+/*basic css structure*/
+
+h1 {
+    color: #042F4B;
+    margin: 50px auto 0 auto;
+    font-size: 5.625rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: #042F4B;
+    margin: 10px 20px;
+}
+
+/*img*/
+.no-route{
+    width: unset;
+    height:500px;
+    position: 0, 0;
+    background-repeat: no-repeat;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    position: relative
+    
+}
+
+.user-created-container{
+    margin: auto;
+    text-align: center;
+    width: 50%;
+    padding: 10px;
+}
+
+.user-btn-container{
+    text-align: center;
+}
+.user-created-btn {
+    background-color: #042F4B;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    margin:auto;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
+

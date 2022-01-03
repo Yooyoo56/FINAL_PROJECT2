@@ -1,0 +1,58 @@
+<link rel = "stylesheet" href= "/stylesheets/book_sessions.css">
+
+<div class = "book-container">
+<img class = "book-class" src= "images/class.jpg" alt= "book-class-image">
+<h1 class = "top-letter">Book your session! </h1>
+</div>
+
+<div class = "body-container">
+    <div class= "search-container">
+<form action="/book-session" method="POST">
+<h1>Find your best coaches!</h1>
+    <label class = "labels" form="category"> Category:</label>
+    <div class= "select">
+    <select name="category" id="courses">
+        <option value="life">Life coach</option>
+        <option value="style">Style coach</option>
+        <option value="career">Career coach</option>
+        <option value="sport">Sport coach</option>
+    </select>
+</div>
+
+    <label class= "labels" form="location">Location:</label>
+    <div class= "select">
+    <select name="location" id="locations">
+        <option value="Paris">Paris</option>
+        <option value="Nantes">Nantes</option>
+        <option value="Lyon">Lyon</option>
+        <option value="Lyon">Nice</option>
+        <option value="Bordeaux">Bordeaux</option>
+        <option value="Lille">Lille</option>
+        <option value="Marseille">Marseille</option>
+    </select>
+        </div>
+        <div class = "search-div">
+            <button class = "search-btn"> Search</button>
+        </div>
+</form>
+    </div>
+{{#if courses}}
+    {{#each courses}}
+    <article class="service-box">
+    <h5>- Category : {{category}}</h5>
+    <h5>- Location : {{location}}</h5>
+    <h5>- Time :  {{time}}</h5>
+    <h5>- Coach : {{coach.name}}</h5>
+    <button class = "book-btn">
+<a class = "bookeda"href="/booked">Book a session</a>
+</article>
+</button>
+    {{/each}}
+
+{{else}}
+    <p class= "nocourse">Sorry!😥 No available courses at the moment.<br> Please contact us.💌</p>
+<a class = "search-btn" href= "/contact-us"> contact us</a>
+{{/if}}
+
+</div>
+

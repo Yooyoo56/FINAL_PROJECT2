@@ -1,0 +1,43 @@
+<link rel="stylesheet" href="/stylesheets/user-profile.css" />
+
+
+<div id= "form">
+    <div class = "container">
+        <div class = "company-logo"></div>
+                {{#if userInSession}}
+    <h1>{{ userInSession.email }}'s profile :</h1>
+
+<p>
+</p>
+    <h3>Recent Login: <script> document.write(new Date().toLocaleDateString()); </script>
+<!-- <h3>Memebr since: {{userInSession.createdAt}}</h3> -->
+
+    <button>
+
+{{else}}
+    <p>Sorry! still no logged in user.</p>
+{{/if}}
+
+</div>
+<div class = "container">
+<div class = "user-logo"></div>
+                {{#if userInSession}}
+    <h1>Hello, {{ userInSession.email }}!</h1>
+    <button class = "profile-option">
+        <a href="/user-profile">Reload the page</a>
+    </button>
+    <button class= "profile-option">
+        <a href= "/create-reviews">write a review 💡! </a>
+    </button>
+    <button class = "profile-option">
+        <a href= "/book-session">Book a session📒! </a>
+    </button>
+        <form id="logout-form" action="/logout" method="POST">
+    <button class = "profile-option">Logout</button>
+
+
+{{else}}
+    <p>Sorry! still no logged in user.</p>
+{{/if}}
+
+</form></div>

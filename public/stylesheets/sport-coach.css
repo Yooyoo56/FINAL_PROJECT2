@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+/*****Section 1******/
+
+.first-section {
+    height:200px;
+    font-family: 'Poppins';
+    font-size:20px;
+/*background-color:#ecf0f3;*/
+}
+
+.first-hr {
+    border: dotted #ecf0f3 7px;
+    border-bottom: none;
+    width:4%;
+    margin:200px;
+
+}
+
+.container {
+    display:flex; 
+    flex-direction: column;
+}
+
+.build {
+    color: black;
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    text-align: center;
+}
+
+/**********section 5**********/
+
+h1{
+    font-size:35px;
+}
+.fifth-section{
+    height:700px;
+  }
+
+  h2{
+    color: #042F4B;
+    font-size:100px;
+    text-align:center;
+    font-family: 'Sacramento', cursive;
+  }
+  .fifth-container {
+    padding-top:100px;
+    padding-bottom: 100px;
+    padding-left:200px;
+    padding-right:200px;
+    display:flex;
+    flex-basis: 0;
+    flex: 1 1 0px;
+    align-content:space-around;
+    justify-content:space-evenly;
+    flex-wrap:nowrap;
+    flex-direction:row;
+  }
+  
+  .fifth-container img {
+    width: 700px;
+    height: 500px;
+  }
+
+  .fifth-container h3 {
+    text-align:left ;
+    color:#042F4B ;
+  }
+  
+  .fifth-container p {
+    font-size: 20px;
+    text-align:left;
+    line-height: 1.5;
+  }
+  
+  /******* 4 div elements*******/
+  
+
+.fifth-first-div{
+  margin:30px;
+  padding:50px;
+  }
+.underline {
+  border-bottom: solid 3px #042F4B;
+  width: 50px;
+}
+
+
+/*//////////////coach button/////////*/
+
+.coach-button {
+    color: black;
+    border: none;
+    padding-right:290px;
+    padding-top: 40px;
+    text-align: center;
+    border: none;
+    outline:rgba(0, 0, 0, 0.05);
+}
+
+.meet-coach {
+    padding: 20px 60px;
+    background-color:#042F4B;
+    box-shadow:8px 8px 0 #dde1e4;
+    border-radius: 0;
+    text-align: center;
+    font-weight: bold;
+    color:white;
+    text-decoration: none;
+}
+
+.last-section{
+  padding:200px;
+  height:400px;
+  font-family: 'Poppins';
+  font-size:20px;
+  background-color:#ecf0f3; 
+}
+
+.bottom-container {
+  background-color: #ecf0f3;
+  position: relative;
+  padding: 150px;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+
+#quote-h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Merriweather', serif;
+  font-size: 50px;
+  color:black;
+}
+
+.last-hr {
+  background-color: white;
+  border: dotted white 6px;
+  border-bottom: none;
+  width:4%;
+  margin: 100px auto;
+}
+
+/*****Blockquote*****/
+.blockquote {
+  padding-left:10px;
+  position: relative;
+}
+
+.blockquote:after {
+  position: absolute;
+  top: 0;
+  content:"Tips";
+  font-size: 150px;
+  color: rgba(0,0,0,0.1);
+}
+
+
+.bottom2-container {
+  background-color: white;
+  position: relative;
+  padding: 100px;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+.quotes{
+  width: 100px;
+  height: 100px;
+  padding-right: 1000px;
+  padding-bottom:20px;
+}

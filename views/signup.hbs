@@ -1,0 +1,32 @@
+<link rel="stylesheet" href="/stylesheets/signup.css" />
+
+
+<!-- body-->
+<div id="form">
+  <div class="container">
+    <div class="brand-logo"></div>
+    <h2>Signup</h2>
+    <form action="/signup" method="POST">
+      <label class="labels" for="input-email">Email</label>
+      <input
+        type="text"
+        id="input-email"
+        name="email"
+        placeholder="example@mycoach.com"
+      />
+
+      <label class="labels" for="input-password">Password</label>
+      <input
+        type="password"
+        name="password"
+        id="input-password"
+        placeholder="********"
+      />
+      <button class="submit-btn" type="submit">Sign up</button>
+
+      {{#if errorMessage}}
+        <p> <class="error">{{errorMessage}}</p>
+      {{/if}}
+    </form>
+  </div>
+</div>
