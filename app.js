@@ -80,8 +80,7 @@ app.get('/getcookie', (req, res)=> {
 
 
 // default value for title local
-app.locals.title = 'Express - Generated with IronGenerator';
-
+app.locals.title = 'My Coach - find your coach';
 
 
 const index = require('./routes/index');
