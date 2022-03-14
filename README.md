@@ -1,17 +1,25 @@
-# MyCoach-Project
-Second Project  Ironhack
+# MyCoach Project (Full-stack project) 
+
+Hello world 👋! **this is the first Full-stack project ( MongoDB, ExpressJS, NodeJS) that I worked during 3 weeks!**
+
+**You're always welcome to visit my projet 👉**
+
+https://secret-castle-90410.herokuapp.com/ 🏇
 
 
-Hello! this is the first JS & Backend project that I worked during 3 weeks!
-Mycoach is the plateform where the user can easily book the meeting with coachs(Career coaches, Life coaches, Style coaches, Sport coaches).
-MyCoach is the project that contains the CRUD (Create, read, update and delete) system.
-- Each user can create their own account
-- Each user can send the mail via Nodemalier
-- Each user also can book the meeting with each coaches while filter the time, or places depends on their preferences.
+## 🎯 Introduction of MyCoach Project
 
-You're always welcome to  visit my projet 👉
-https://secret-castle-90410.herokuapp.com/
+Mycoach is the plateform where the user can easily book the meeting with coaches(Career coaches, Life coaches, Style coaches, Sport coaches).
+MyCoach is the project that contains the **CRUD (Create, read, update and delete) system.**
 
+## 🧩 Functionality
+
+- **Use Express** as a foundation.
+- **Use Mongoose** for models and data communication
+- **Include sign up & logout functionality** with encrypted passwords and authorization 
+  : logged in users can do extra things -> Each user also can book the meeting with each coaches while filter the time, or places depends on their preferences.
+ - **Have routes for all CRUD**
+ - **User can create their own account and login and logout**
 
 
 ## 📌 Homepage
